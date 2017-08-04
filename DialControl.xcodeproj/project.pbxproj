@@ -14,6 +14,7 @@
 		499607BC1F3312560000E269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499607BB1F3312560000E269 /* Assets.xcassets */; };
 		499607BF1F3312560000E269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499607BD1F3312560000E269 /* LaunchScreen.storyboard */; };
 		499607CA1F3312560000E269 /* DialControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 499607C91F3312560000E269 /* DialControlTests.m */; };
+		499607D61F33133D0000E269 /* SwirlGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 499607D51F33133D0000E269 /* SwirlGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		499607C51F3312560000E269 /* DialControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499607C91F3312560000E269 /* DialControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialControlTests.m; sourceTree = "<group>"; };
 		499607CB1F3312560000E269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499607D41F33133D0000E269 /* SwirlGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwirlGestureRecognizer.h; sourceTree = "<group>"; };
+		499607D51F33133D0000E269 /* SwirlGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwirlGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				499607BD1F3312560000E269 /* LaunchScreen.storyboard */,
 				499607C01F3312560000E269 /* Info.plist */,
 				499607AF1F3312560000E269 /* Supporting Files */,
+				499607D41F33133D0000E269 /* SwirlGestureRecognizer.h */,
+				499607D51F33133D0000E269 /* SwirlGestureRecognizer.m */,
 			);
 			path = DialControl;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				499607B71F3312560000E269 /* ViewController.m in Sources */,
 				499607B41F3312560000E269 /* AppDelegate.m in Sources */,
 				499607B11F3312560000E269 /* main.m in Sources */,
+				499607D61F33133D0000E269 /* SwirlGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
